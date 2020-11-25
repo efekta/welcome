@@ -1,0 +1,67 @@
+.btn-ticket {
+  min-height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto 0 auto 16px;
+  text-align: center;
+  border-radius: 16px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  cursor: pointer;
+  &:first-child {
+    margin-left: 0;
+  }
+}
+
+
+.btn-ticket--dark {
+  min-width: 177px;
+  background: #03090F;
+  color: $white;
+  &:hover, &:active, &:focus {
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.06);
+  }
+}
+.btn-ticket--white {
+  min-width: 139px;
+  background: #FFFFFF;
+  color: $dark;
+
+  &:hover, &:active, &:focus {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.02);
+  }
+}
+
+.btn-desktop {
+  min-width: 146px;
+  min-height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 16px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  cursor: pointer;
+  margin-left: 16px;
+}
+
+.btn-desktop--dark {
+  background: #03090F;
+  color: $white;
+  &:hover, &:active, &:focus {
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.06);
+  }
+}
+
+.btn-desktop--white {
+  background: #FFFFFF;
+  color: $dark;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.06);
+  &:hover, &:active, &:focus {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.02);
+  }
+}
