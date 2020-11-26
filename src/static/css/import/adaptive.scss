@@ -1,0 +1,31 @@
+@media(max-width: $container-md) {
+  .content {
+    flex-wrap: wrap;
+  }
+  .page-content {
+    width: 100%;
+    margin: 25px;
+  }
+  .form-wrapp {
+    width: 60vw;
+    margin: 0 auto;
+  }
+  .content:after {
+    display: none;
+  }
+  .content:before {
+    display: none;
+  }
+  .page-content:before {
+    display: none;
+  }
+  .title {
+    font-size: 36px;
+  }
+}
+@media(max-width: $container-sm) {
+  .form-wrapp {
+    width: 95vw;
+    margin: 0 25px;
+  }
+}

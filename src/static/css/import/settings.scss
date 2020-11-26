@@ -13,7 +13,7 @@ body {
     font-size: 14px;
     font-family: $base_font, sans-serif;
     font-weight: 400;
-    color: $dark;
+    color: $black;
     overflow-x: hidden;
 }
 
@@ -107,4 +107,12 @@ select:-webkit-autofill:focus {
     -webkit-box-shadow: 0 0 0px 1000px transparent inset;
     transition: background-color 5000s ease-in-out 0s;
     background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(0,174,255,0.04) 50%,rgba(255,255,255,0) 51%,rgba(0,174,255,0.03) 100%);
+}
+.error {
+    color: red;
+    margin-left: 5px;
+}
+
+.error {
+    display: block;
 }

@@ -1,0 +1,55 @@
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background: $green;
+}
+.content {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 90vw;
+  height: 90vh;
+  overflow: hidden;
+  background: linear-gradient(360deg, #6ED4FF 1.75%, #8FFFA3 95.51%);
+  mix-blend-mode: normal;
+  border-radius: 43px;
+  &:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 559px;
+    height: 498px;
+    background: url("../img/svg/bg-2.svg") no-repeat;
+    background-position: bottom;
+  }
+  &:after {
+    content: "";
+    position: absolute;
+    top: 96px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 125px;
+    height: 125px;
+    background: url("../img/svg/shopping_cart.svg") no-repeat;
+  }
+}
+
+.title {
+  font-weight: bold;
+  font-size: 52px;
+  line-height: 63px;
+  letter-spacing: 0.472727px;
+  color: $white;
+  margin-bottom: 25px;
+}
+.desc {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+  color: $white;
+}

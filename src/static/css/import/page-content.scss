@@ -1,0 +1,20 @@
+.page-content {
+  width: 60%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 392px;
+    height: 442px;
+    background: url("../img/svg/bg-1.svg") no-repeat;
+  }
+  &__welcome {
+
+  }
+}

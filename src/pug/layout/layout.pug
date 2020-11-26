@@ -10,5 +10,9 @@ html(lang="ru-RU")
         include ../includes/links.pug
     body
         include ../includes/svg-sprite
-
+        .app
+            block content
+        script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js")
+        script(src="libs/jquery/jquery-3.4.1.min.js")
+        script(src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js")
         script(src="js/common.js")
